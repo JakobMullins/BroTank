@@ -48,6 +48,12 @@
 	float: left;
 }
 
+.workout-details label {
+	font-style: bold;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+
 .workout-name {
 	width: 25%;
 	float: left;
@@ -82,11 +88,11 @@
 }
 
 .repeat-workout {
-	width: 15%;
+	width: 18%;
 	float: left;
 }
 
-.repeat-workout select {
-	width: 100%;
+.repeat-workout input {
+	width: 10%;
 	height: 22px;
 }
