@@ -7,7 +7,7 @@
     <title>Create Workout - BroTank</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./static/css/kickoff.css">
-    <link rel="stylesheet" href="./LeaderBoard.css">
+    <link rel="stylesheet" href="./CreateWorkout.css">
 </head>
 <body>
 	<div class="header">
@@ -16,29 +16,65 @@
 	<div class="sidebar">
 		<p>WORKOUTS</p>
 		<a href="LeaderBoard.html">LEADERBOARDS</a>
-		<p>LEADERBOARDS</p>
+		<p>EXERCISES</p>
 		<p>REPORTS</p>
 	</div>
-	<div class="create-workouts-body">
+	<div class="create-workout-body">
 		<h1>Create a workout</h1>
 		<div class="workout-details">
 			<div class="workout-name">
-				<label>Workout Name</label>
+				<label>Workout Name</label> <br>
 				<input type="text" id="workout-name" autofocus>
 			</div>
-			<div class="workout-date">
-				<label>Date</label>
+			<div class="workout-date-start">
+				<label>Start Date</label> <br>
+				<input type="date" id="workout-date">
+			</div>
+			<div class="workout-date-end">
+				<label>End Date</label> <br>
 				<input type="date" id="workout-date">
 			</div>
 			<div class="repeat-workout">
-				<select id="repeat-workout-options">
-					<option type="checkbox">DON'T REPEAT</option>
+				<label>Repeat Days</label> <br>
+				<!-- <select id="repeat-workout-options">
+					<option></option>
 					<option type="checkbox">MONDAYS</option>
 					<option type="checkbox">TUESDAYS</option>
 					<option type="checkbox">WEDNESDAY</option>
 					<option type="checkbox">THURSDAYS</option>
 					<option type="checkbox">FRIDAYS</option>
+				</select> -->
+				<div class="repeat-workout-options">
+					<input type="checkbox">M
+					<input type="checkbox">T
+					<input type="checkbox">W
+					<input type="checkbox">R
+					<input type="checkbox">F
+				</div>
+			</div>
+		</div>
+		<div class="workout-creation">
+			<h1>EXCERISES</h1>
+			<div class="lift">
+				<select class="life-options">
+					<option default></option>
+					<option>BENCH</option>
+					<option>SQUAT</bench>
+					<option>CLEAN</option>
+					<option>SHOULDER PRESS</option>
+					<option>DEADLIFT</option>
 				</select>
+			</div>
+			<div class="sets">
+				<label>SETS</label>
+				<input type="number" id="sets">
+			</div>
+			<div class="reps">
+				<label>REPS</label>
+				<input type="number" id="reps">
+			</div>
+			<div class="coach-notes">
+				<input type="text" id="coach-notes" placeholder="Coach Notes">
 			</div>
 		</div>
 	</div>

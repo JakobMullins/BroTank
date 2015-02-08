@@ -1,0 +1,92 @@
+.header {
+	height: 48px;
+	width: 100%;
+	background-color: #232A31;
+	color: white;
+	text-align: left;
+	font-family: sans-serif;
+}
+
+.header h1 {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.sidebar {
+	width: 15%;
+	height: 720px;
+	float: left;
+	text-align: center;
+	border-right: 2px solid orange;
+	color: #818A8A;
+	font-family: sans-serif;
+}
+
+.sidebar a {
+	color: #818A8A;
+	text-decoration: none;
+}
+
+.sidebar a:hover {
+	color: orange;
+}
+
+.create-workout-body {
+	width: 83%;
+	height: 100%;
+	float: left;
+}
+
+.create-workout-body h1 {
+	font-family: sans-serif;
+	padding-left: 2%;
+}
+
+.workout-details {
+	width: 100%;
+	height: 75px;
+	float: left;
+}
+
+.workout-name {
+	width: 25%;
+	float: left;
+	padding-left: 2%;
+}
+
+.workout-name input {
+	width: 80%;
+	height: 22px;
+}
+
+.workout-date-start {
+	width: 10%;
+	float: left;
+	padding-right: 3%;
+}
+
+.workout-date-start input{
+	width: 100%;
+	height: 22px;
+}
+
+.workout-date-end {
+	width: 10%;
+	float: left;
+	padding-right: 3%;
+}
+
+.workout-date-end input{
+	width: 100%;
+	height: 22px;
+}
+
+.repeat-workout {
+	width: 15%;
+	float: left;
+}
+
+.repeat-workout select {
+	width: 100%;
+	height: 22px;
+}
