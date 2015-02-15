@@ -10,8 +10,13 @@
     <link rel="stylesheet" href="./CreateWorkout.css">
 </head>
 <body>
-	<div class="header">
-		<h1>WORKOUTS</h1>
+	<div class="nav">
+		<div class="hudl-nav">
+			<img src="hudl_nav.png" height="50px" width="100%">
+		</div>
+		<div class="sub-header">
+			<h1>WORKOUTS</h1>
+		</div>
 	</div>
 	<div class="sidebar">
 		<p>WORKOUTS</p>
@@ -20,7 +25,7 @@
 		<p>REPORTS</p>
 	</div>
 	<div class="create-workout-body">
-		<h1>Create a workout</h1>
+		<h1>CREATE A WORKOUT</h1>
 		<div class="workout-details">
 			<div class="workout-name">
 				<label>Workout Name</label> <br>
@@ -34,48 +39,74 @@
 				<label>End Date</label> <br>
 				<input type="date" id="workout-date">
 			</div>
-			<div class="repeat-workout">
-				<label>Repeat Days</label> <br>
-				<!-- <select id="repeat-workout-options">
-					<option></option>
-					<option type="checkbox">MONDAYS</option>
-					<option type="checkbox">TUESDAYS</option>
-					<option type="checkbox">WEDNESDAY</option>
-					<option type="checkbox">THURSDAYS</option>
-					<option type="checkbox">FRIDAYS</option>
-				</select> -->
-				<div class="repeat-workout-options">
-					<input type="checkbox">M
-					<input type="checkbox">T
-					<input type="checkbox">W
-					<input type="checkbox">R
-					<input type="checkbox">F
-				</div>
-			</div>
 		</div>
-		<div class="workout-creation">
-			<h1>EXCERISES</h1>
-			<div class="lift">
-				<select class="life-options">
-					<option default></option>
-					<option>BENCH</option>
-					<option>SQUAT</bench>
-					<option>CLEAN</option>
-					<option>SHOULDER PRESS</option>
-					<option>DEADLIFT</option>
+		<div class="share-workout">
+			<div class="share-with">
+				<label>Share Workout</label> <br>
+				<select class="workout-groups">
+					<option></option>id
+					<option>ALL TEAM</option>
+					<option>BIGS</option>
+					<option>SKILLS</option>
 				</select>
 			</div>
-			<div class="sets">
-				<label>SETS</label>
-				<input type="number" id="sets">
+			<div class="repeat-workout">
+				<label>Repeat Days</label> <br>
+				<div class="repeat-workout-options">
+					<button type="button" onclick="select">M</button>
+					<button type="button" onclick="select">T</button>
+					<button type="button" onclick="select">W</button>
+					<button type="button" onclick="select">R</button>
+					<button type="button" onclick="select">F</button>
+				</div>
 			</div>
-			<div class="reps">
-				<label>REPS</label>
-				<input type="number" id="reps">
+			<div class="add-group">
+				<label></label> <br>
+				<img src="add.svg" width="22px">
 			</div>
-			<div class="coach-notes">
-				<input type="text" id="coach-notes" placeholder="Coach Notes">
-			</div>
+		</div>
+	</div>
+	<div class="workout-creation">
+		<h1>EXCERISES</h1>
+		<div class="lift"> 
+			<label>LIFT</label> <br>
+			<select class="lift-options">
+				<option default></option>r
+				<option>BENCH</option>
+				<option>SQUAT</bench>
+				<option>CLEAN</option>
+				<option>SHOULDER PRESS</option>
+				<option>DEADLIFT</option>
+			</select>
+		</div>
+		<div class="sets">
+			<label>SETS</label> <br>
+			<input type="number" id="sets">
+		</div>
+		<div class="reps">
+			<label>REPS</label> <br>
+			<input type="number" id="reps">
+		</div>
+		<div class="percent">
+			<label>%</label> <br>
+			<input type="text" id="percent">
+		</div>
+		<div class="record">
+			<label>RECORD</label> <br>
+			<img src="record.svg" width="25px" color="gray">
+		</div>
+		<div class="coach-notes">
+			<label></label> <br>
+			<input type="text" id="coach-notes" placeholder="Coach Notes">
+		</div>
+		<div class="workout-options">
+			<label></label> <br>
+			<img src="add.svg" width="22px">
+			<img src="copy.svg" width="22px">
+			<img src="remove.svg" width="22px">
+		</div>
+		<div class="save-workout">
+			<button type="button">Save Workout</button>
 		</div>
 	</div>
 </body>
