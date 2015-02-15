@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)file:///Users/jakobmullins/Desktop/brotank/BroTank.html -->
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Create Workout - BroTank</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./static/css/kickoff.css">
+    <link rel="stylesheet" href="./CreateWorkout.css">
+</head>
+<body>
+	<div class="nav">
+		<div class="hudl-nav">
+			<img src="hudl_nav.png" height="50px" width="100%">
+		</div>
+		<div class="sub-header">
+			<h1>WORKOUTS</h1>
+		</div>
+	</div>
+	<div class="sidebar">
+		<div class="sidebar-menu">
+			<p>WORKOUTS</p>
+			<p><a href="LeaderBoard.html">LEADERBOARDS</a></p>
+			<p>EXERCISES</p>
+			<p>REPORTS</p>
+		</div>
+	</div>
+	<div class="create-workout-body">
+		<h1>CREATE A WORKOUT</h1>
+		<div class="workout-details">
+			<div class="workout-name">
+				<label>Workout Name</label> <br>
+				<input type="text" id="workout-name" autofocus>
+			</div>
+			<div class="workout-date-start">
+				<label>Start Date</label> <br>
+				<input type="date" id="workout-date">
+			</div>
+			<div class="workout-date-end">
+				<label>End Date</label> <br>
+				<input type="date" id="workout-date">
+			</div>
+		</div>
+		<div class="share-workout">
+			<div class="share-with">
+				<label>Share Workout</label> <br>
+				<select class="workout-groups">
+					<option></option>id
+					<option>ALL TEAM</option>
+					<option>BIGS</option>
+					<option>SKILLS</option>
+				</select>
+			</div>
+			<div class="repeat-workout">
+				<label>Repeat Days</label> <br>
+				<div class="repeat-workout-options">
+					<button type="button" onclick="select">M</button>
+					<button type="button" onclick="select">T</button>
+					<button type="button" onclick="select">W</button>
+					<button type="button" onclick="select">R</button>
+					<button type="button" onclick="select">F</button>
+				</div>
+			</div>
+			<div class="add-group">
+				<label></label> <br>
+				<img src="add.svg" width="22px">
+			</div>
+		</div>
+	</div>
+	<div class="workout-creation">
+		<h1>EXCERISES</h1>
+		<div class="lift"> 
+			<label>LIFT</label> <br>
+			<select class="lift-options">
+				<option default></option>r
+				<option>BENCH</option>
+				<option>SQUAT</bench>
+				<option>CLEAN</option>
+				<option>SHOULDER PRESS</option>
+				<option>DEADLIFT</option>
+			</select>
+		</div>
+		<div class="sets">
+			<label>SETS</label> <br>
+			<input type="number" id="sets">
+		</div>
+		<div class="reps">
+			<label>REPS</label> <br>
+			<input type="number" id="reps">
+		</div>
+		<div class="percent">
+			<label>%</label> <br>
+			<input type="text" id="percent">
+		</div>
+		<div class="record">
+			<label>RECORD</label> <br>
+			<img src="record.svg" width="25px" color="gray">
+		</div>
+		<div class="coach-notes">
+			<label></label> <br>
+			<input type="text" id="coach-notes" placeholder="Coach Notes">
+		</div>
+		<div class="workout-options">
+			<label></label> <br>
+			<img src="add.svg" width="22px">
+			<img src="copy.svg" width="22px">
+			<img src="remove.svg" width="22px">
+		</div>
+		<div class="save-workout">
+			<button type="button">Save Workout</button>
+		</div>
+	</div>
+</body>
+</html>

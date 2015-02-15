@@ -1,0 +1,237 @@
+/*body {
+	background-image: url("background.jpg");
+}*/
+
+.nav {
+	background-color: #38434F;
+}
+
+.sub-header {
+	height: 48px;
+	width: 100%;
+	background-color: #38434F;
+	color: white;
+	text-align: left;
+	font-family: sans-serif;
+}
+
+.sub-header h1 {
+	padding-left: 10px;
+}
+
+.sidebar {
+	width: 15%;
+	height: 720px;
+	float: left;
+	text-align: center;
+	border-right: 2px solid #E8E8E8;
+	color: #F87620;
+	font-family: sans-serif;
+}
+
+.sidebar-menu p {
+	border-bottom: 1px solid #E8E8E8;
+	padding-bottom: 10px;
+}
+
+.sidebar-menu a {
+	color: #F87620;
+	text-decoration: none;
+}
+
+.sidebar a:hover {
+	color: #4E5D6C;
+}
+
+.create-workout-body {
+	width: 82%;
+	float: left;
+	font-family: sans-serif;
+	padding-left: 2%
+}
+
+.create-workout-body h1 {
+	color: #818A8A;
+	font-size: 36px;
+}
+
+.workout-details {
+	width: 100%;
+	height: 75px;
+	float: left;
+	font-family: sans-serif;
+}
+
+.workout-details label {
+	font-style: bold;
+	font-size: 18px;
+}
+
+.workout-name {
+	width: 25%;
+	float: left;
+}
+
+.workout-name input {
+	width: 80%;
+	height: 22px;
+}
+
+.workout-date-start {
+	width: 15%;
+	float: left;
+	padding-right: 3%;
+}
+
+.workout-date-start input{
+	width: 80%;
+	height: 22px;
+}
+
+.workout-date-end {
+	width: 15%;
+	float: left;
+	padding-right: 3%;
+}
+
+.workout-date-end input{
+	width: 80%;
+	height: 22px;
+}
+
+.share-workout {
+	width: 83%;
+	float: left;
+}
+
+.share-with {
+	width: 20%;
+	float: left;
+	padding-bottom: 3%;
+	padding-right: 3%;
+	font-size: 18px;
+}
+
+.share-with select {
+	width: 90%;
+}
+
+.add-group {
+	width: 5%;
+	float: left;
+}
+
+.repeat-workout {
+	width: 30%;
+	float: left;
+	padding-right: 1%;
+}
+
+.repeat-workout label {
+	font-size: 18px;
+}
+
+.repeat-workout-options {
+	width: 100%;
+}
+
+.repeat-workout button {
+	width: 18%;
+}
+
+.workout-creation {
+	width: 82%;
+	float: left;
+	padding-left: 2%;
+	font-family: sans-serif;
+}
+
+.workout-creation h1 {
+	color: #818A8A;
+	font-size: 36px;
+}
+
+.lift {
+	width: 20%;
+	float: left;
+	padding-right: 3%;
+}
+
+.lift select {
+	width: 100%;
+	height: 22px;
+}
+
+.sets {
+	width: 5%;
+	float: left;
+	padding-right: 2%;
+}
+
+.sets input {
+	width: 75%;
+	height: 22px;
+}
+
+.reps {
+	width: 5%;
+	float: left;
+	padding-right: 2%;
+}
+
+.reps input {
+	width: 75%;
+	height: 22px;
+}
+
+.percent {
+	width: 5%;
+	float: left;
+	padding-right: 2%;
+	text-align: center;
+}
+
+.percent input {
+	width: 75%;
+	height: 22px;
+}
+
+.record {
+	width: 5%;
+	float: left;
+	padding-right: 2%;
+	text-align: center;
+}
+
+.coach-notes {
+	width: 20%;
+	float: left;
+	padding-right: 3%;
+}
+
+.coach-notes input {
+	width: 100%;
+	height: 22px;
+}
+
+.workout-options {
+	width: 20%;
+	float: left;
+}
+
+.workout-options img {
+	padding-right: 3%;
+}
+
+.save-workout{
+	width: 20%;
+}
+
+.save-workout button {
+	background-color: #F87620;
+	width: 70%;
+	height: 35px;
+	font-size: 18px;
+	color: white;
+	font-family: sans-serif;
+}
