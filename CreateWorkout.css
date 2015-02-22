@@ -51,7 +51,7 @@
 }
 
 .create-workout-body h1 {
-	color: #818A8A;
+	color: #4E5D6C;
 	font-size: 36px;
 }
 
@@ -65,6 +65,7 @@
 .workout-details label {
 	font-style: bold;
 	font-size: 18px;
+	color: #818A8A;
 }
 
 .workout-name {
@@ -110,6 +111,7 @@
 	padding-bottom: 3%;
 	padding-right: 3%;
 	font-size: 18px;
+	color: #818A8A;
 }
 
 .share-with select {
@@ -129,6 +131,7 @@
 
 .repeat-workout label {
 	font-size: 18px;
+	color: #818A8A;
 }
 
 .repeat-workout-options {
@@ -144,10 +147,11 @@
 	float: left;
 	padding-left: 2%;
 	font-family: sans-serif;
+	color: #818A8A;
 }
 
 .workout-creation h1 {
-	color: #818A8A;
+	color: #4E5D6C;
 	font-size: 36px;
 }
 
@@ -234,4 +238,5 @@
 	font-size: 18px;
 	color: white;
 	font-family: sans-serif;
+	border-radius: 10px;
 }
